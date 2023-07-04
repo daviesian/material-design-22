@@ -1,10 +1,20 @@
 allow_embedding: false
-package_name: Material_Design_14
-name: Material Design 14
+package_name: Github_Test
+secrets:
+  new_secret:
+    value: {? '' : 9KqsbixQVE3EjxBtC63Cf6CG6NvvJ68TCwnRtbYjzePqboo+UF/Ul1RToWEJiikc0OhMhecK4FJV5RCxzRSdHYKKU1LYFu1SdJaQ3dEBhfprxyB143fWEdODwxAo/60eygE=}
+    type: secret
+name: Github Test
 startup_form: Form1
 runtime_options:
   version: 2
   client_version: '3'
   server_version: python3-sandbox
   server_spec: {base: python310-standard}
-services: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/anvil/secrets.yml
+  client_config: {}
+  server_config: {}
