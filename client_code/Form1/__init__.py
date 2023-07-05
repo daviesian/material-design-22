@@ -16,5 +16,4 @@ class Form1(Form1Template):
 
     # Any code you write here will run before the form opens.
     # Added in github
-    # Added in Anvil again.
-    # GA
+    # Added in Anvil again..
