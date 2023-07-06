@@ -1,5 +1,20 @@
 allow_embedding: false
 package_name: Github_Test
+db_schema:
+  files:
+    client: none
+    server: full
+    columns:
+    - name: path
+      type: string
+      admin_ui: {order: 0, width: 200}
+    - name: file
+      type: media
+      admin_ui: {order: 1, width: 200}
+    - name: file_version
+      type: string
+      admin_ui: {order: 2, width: 200}
+    title: Files
 secrets:
   new_secret:
     value: {? '' : 9KqsbixQVE3EjxBtC63Cf6CG6NvvJ68TCwnRtbYjzePqboo+UF/Ul1RToWEJiikc0OhMhecK4FJV5RCxzRSdHYKKU1LYFu1SdJaQ3dEBhfprxyB143fWEdODwxAo/60eygE=}
@@ -16,5 +31,11 @@ services:
   client_config: {}
   server_config: {}
 - source: /runtime/services/anvil/secrets.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/anvil/files.yml
+  client_config: {}
+  server_config: {file_table: files}
+- source: /runtime/services/google.yml
   client_config: {}
   server_config: {}
