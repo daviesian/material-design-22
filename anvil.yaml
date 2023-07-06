@@ -36,6 +36,3 @@ services:
 - source: /runtime/services/anvil/files.yml
   client_config: {}
   server_config: {file_table: files}
-- source: /runtime/services/google.yml
-  client_config: {}
-  server_config: {enc_delegation_refresh_token: viMewkZr6vjjW+T0ZWDfmRWFhBndP831T6DlKuDdrJJg+csnWOoEUeeSXWAul8jYNgNnnSBUXJvf+4doFgf52qt0Nx61+2t88eqnkIFQAQ9cVZwB9aJ6qke9sM1KUvPvoEqs0pI1/cxPRRIcArLfaJg31V8Y6Tv3MJfSDbeYmRqMlMMSs/x+2OdQLaET4ZwABXapGGXhty1lDMyoCxRjX/vzsP8kjOyQ+DFgc9VyqyLBTEza03xA+PBoWKrdoHrQwwlUZrh2hC+0WFydrb0WxZSRYqbl4h75qGV6umZXHW3clmEMiUEOa2C9+NQs9A==}
