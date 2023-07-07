@@ -13,7 +13,7 @@ components:
     name: button_1
     layout_properties: {grid_position: 'TUZVZX,TYECSD'}
   - type: Button
-    properties: {text: button_2}
+    properties: {text: "THIS IS A BUTTON"}
     name: button_2
     layout_properties: {grid_position: 'MAEIEJ,EINLEY'}
   - type: Button
