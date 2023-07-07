@@ -13,7 +13,7 @@ components:
     name: button_1
     layout_properties: {grid_position: 'TUZVZX,TYECSD'}
   - type: Button
-    properties: {text: "THIS IS A BUTTON"}
+    properties: {text: THIS IS A BUTTON}
     name: button_2
     layout_properties: {grid_position: 'MAEIEJ,EINLEY'}
   - type: Button
@@ -28,6 +28,10 @@ components:
     properties: {text: button_5}
     name: button_5
     layout_properties: {grid_position: 'UJEMNW,IOVOYE'}
+  - type: Button
+    properties: {text: button_6}
+    name: button_6
+    layout_properties: {grid_position: 'EPLYZN,QLPTDV'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
